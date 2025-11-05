@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daniel Cunningham | DevOps Engineer</title>
+  <meta name="description" content="Senior DevOps engineer building reliable, observable, and secure cloud infrastructure">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container">
+      <a class="logo" href="#top" aria-label="Home">DC</a>
+      <nav class="site-nav" aria-label="Primary">
+        <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="siteNavMenu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <ul id="siteNavMenu" class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="themeToggle" class="theme-toggle" aria-pressed="false">
+        <span class="sr-only">Toggle dark mode</span>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1 7 7 0 0 0 7 7 1 1 0 0 1 0 2 9 9 0 1 1-8-10 1 1 0 0 1 0 0z"></path></svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Senior DevOps engineer</p>
+          <h1>Automating resilient cloud platforms that let teams ship faster</h1>
+          <p class="lede">I partner with product-driven companies to harden infrastructure, accelerate delivery pipelines, and keep systems observable around the clock.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View projects</a>
+            <a class="btn ghost" href="#contact">Let's talk</a>
+          </div>
+          <dl class="hero-meta">
+            <div>
+              <dt>Location</dt>
+              <dd>Denver, CO</dd>
+            </div>
+            <div>
+              <dt>Availability</dt>
+              <dd>Accepting senior DevOps roles</dd>
+            </div>
+            <div>
+              <dt>Focus</dt>
+              <dd>Platform reliability, automation, cloud security</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="hero-card" role="presentation">
+          <div class="hero-avatar" aria-hidden="true">
+            <div class="avatar-ring"></div>
+            <img src="https://avatars.githubusercontent.com/u/000000?v=4" alt="" loading="lazy">
+          </div>
+          <p class="hero-quote">"Daniel modernized our delivery platform and gave engineering their weekends back."</p>
+          <p class="hero-quote-meta">- Priya Natarajan, CTO @ LaunchLab</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container section-grid">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Operating platforms at scale</h2>
+        </div>
+        <div class="section-body">
+          <p>I build and evolve cloud platforms so engineering teams can focus on features instead of firefighting. My work spans container orchestration, infrastructure as code, observability, and security automation.</p>
+          <p>Whether untangling legacy deployments or scaling greenfield applications, I thrive on pairing pragmatic automation with strong operational practices.</p>
+          <ul class="highlight-list">
+            <li>10+ years running production workloads across AWS, GCP, and Kubernetes</li>
+            <li>Scaled CI/CD platforms supporting 200+ engineers</li>
+            <li>Terraform, Helm, and Argo CD specialist</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="eyebrow">Capabilities</p>
+          <h2>How I keep systems healthy</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Platform automation</h3>
+            <p>Design declarative infrastructure, GitOps workflows, and deployment pipelines that keep releases fast and reproducible.</p>
+            <ul class="tag-list">
+              <li>Terraform</li>
+              <li>Argo CD</li>
+              <li>GitHub Actions</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Reliability engineering</h3>
+            <p>Establish SLOs, observability dashboards, and incident response playbooks that improve uptime and MTTR.</p>
+            <ul class="tag-list">
+              <li>Prometheus + Grafana</li>
+              <li>OpenTelemetry</li>
+              <li>Chaos testing</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Cloud security</h3>
+            <p>Embed security controls into infrastructure pipelines with policy as code, secrets management, and compliance automation.</p>
+            <ul class="tag-list">
+              <li>AWS Organizations</li>
+              <li>HashiCorp Vault</li>
+              <li>OPA & Conftest</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="eyebrow">Selected work</p>
+          <h2>Projects that hardened delivery</h2>
+        </div>
+        <div class="project-list">
+          <article class="project">
+            <div class="project-meta">
+              <p class="project-year">2025</p>
+              <h3>LaunchLab Platform</h3>
+              <p class="project-role">Lead DevOps engineer</p>
+            </div>
+            <div class="project-body">
+              <p>Migrated monolithic services into a multi-cluster Kubernetes architecture with GitOps deployments, cutting release lead time from days to hours.</p>
+              <ul class="tag-list">
+                <li>EKS</li>
+                <li>Argo Rollouts</li>
+                <li>Vault</li>
+              </ul>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project-meta">
+              <p class="project-year">2024</p>
+              <h3>Arcadia Observability</h3>
+              <p class="project-role">Site reliability lead</p>
+            </div>
+            <div class="project-body">
+              <p>Implemented a full-stack observability platform with OpenTelemetry collectors and SLO dashboards, improving alert precision by 45%.</p>
+              <ul class="tag-list">
+                <li>Grafana</li>
+                <li>Tempo & Loki</li>
+                <li>SLO burn rates</li>
+              </ul>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project-meta">
+              <p class="project-year">2023</p>
+              <h3>Northwind Release Engine</h3>
+              <p class="project-role">Platform engineer</p>
+            </div>
+            <div class="project-body">
+              <p>Rebuilt CI/CD with reusable workflows, policy as code, and automated security scans, reducing change failure rate below 2%.</p>
+              <ul class="tag-list">
+                <li>GitHub Actions</li>
+                <li>Terraform Cloud</li>
+                <li>Trivy</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section alt">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="eyebrow">Timeline</p>
+          <h2>Recent roles</h2>
+        </div>
+        <ol class="timeline">
+          <li>
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>Senior DevOps Engineer - Atlas FinTech</h3>
+              <span class="timeline-meta">2022 - Present</span>
+              <p>Owning cloud infrastructure strategy across three business units, delivering zero-downtime releases and SOC 2 compliant pipelines.</p>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>DevOps Lead - Brightloop</h3>
+              <span class="timeline-meta">2018 - 2022</span>
+              <p>Built a self-service platform team, standardized infrastructure as code, and reduced incident volume by 38% year over year.</p>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>Systems Engineer - Freelance</h3>
+              <span class="timeline-meta">2013 - 2018</span>
+              <p>Advised startups on cloud migrations, cost optimization, and containerizing legacy workloads.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section">
+      <div class="container section-grid">
+        <div class="section-heading">
+          <p class="eyebrow">Testimonials</p>
+          <h2>Partners on reliability</h2>
+        </div>
+        <div class="section-body">
+          <figure class="testimonial">
+            <blockquote>
+              "Daniel took us from weekly production incidents to months of steady uptime with thoughtful automation."
+            </blockquote>
+            <figcaption>- Marissa Chen, VP Engineering @ Arcadia</figcaption>
+          </figure>
+          <figure class="testimonial">
+            <blockquote>
+              "His observability stack finally gave us actionable alerts and ended pager fatigue across the team."
+            </blockquote>
+            <figcaption>- Jonathan Rice, Head of SRE @ Brightloop</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let's ship with confidence</h2>
+          <p>If you need a partner to scale infrastructure, improve release cadence, or chase SLOs, drop a note and let's talk.</p>
+        </div>
+        <div class="contact-card">
+          <a class="btn primary" href="mailto:daniel@cunningham.dev">daniel@cunningham.dev</a>
+          <ul class="contact-links">
+            <li><a href="https://github.com/dcunningham">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/danielcunningham">LinkedIn</a></li>
+            <li><a href="https://dev.to/dcunningham">Dev.to</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; <span id="year"></span> Daniel Cunningham. All rights reserved.</p>
+      <a class="top-link" href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
